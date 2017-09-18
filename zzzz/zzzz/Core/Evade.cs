@@ -115,7 +115,7 @@ namespace zzzz
                     OrbwalkerInst.PreAttack += Orbwalker_PreAttack;
 
 
-                menu = new Menu("ezevadeeeeeeeee", "★EZ躲避★", true);
+                menu = new Menu("ezevadeeeeeeeee", "EZ躲避 ★猪肉VIP汉化★325220288", true);
 
                 mainMenu = new Menu("MainMenu", "功能主设置");
                 mainMenu.Add(new MenuKeyBind("DodgeSkillShots", "躲避指向性技能", KeyCode.K, KeybindType.Toggle));
