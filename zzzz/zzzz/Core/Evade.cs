@@ -147,7 +147,7 @@ namespace zzzz
                 loadTestMenu["LoadPingTester"].OnValueChanged += OnLoadPingTesterChange;
                 loadTestMenu["LoadSpellTester"].OnValueChanged += OnLoadSpellTesterChange;
 
-                miscMenu = new Menu("MiscMenu", "额外选项设置置");
+                miscMenu = new Menu("MiscMenu", "额外选项设置");
                 miscMenu.Add(new MenuBool("HigherPrecision", "增強躲避精度"));
                 miscMenu.Add(new MenuBool("RecalculatePosition", "重新计算路径"));
                 miscMenu.Add(new MenuBool("ContinueMovement", "继续上次移动"));
